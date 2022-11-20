@@ -1032,8 +1032,9 @@ body::after {
 .zuozhe {
     display: flex;
     align-items: center;
-
+    margin-bottom: 20px;
 }
+
 .datou{
     box-sizing: border-box;
     width: 60px;

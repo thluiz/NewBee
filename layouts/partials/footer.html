@@ -2,15 +2,15 @@
     {{ if .Site.Params.footer.enable }}
         <div class="container">
             <div class="footer-items">
-                {{ if .Site.Params.footer.visitor }}
+                <!-- {{ if .Site.Params.footer.visitor }}
                     <div class="footer-item">
                         <i class="fa fa-user"></i> <span id="busuanzi_value_site_pv"></span> |
                         <i class="fa fa-eye"></i> <span id="busuanzi_value_site_uv"></span>
                     </div>
-                {{ end }}
+                {{ end }} -->
                 {{ if .Site.Params.footer.copyRight }}
                     <div class="footer-item">
-                        © {{ .Site.Params.footer.from }}-{{ now.Format "2006" }} <a href="{{ .Site.Author.link }}">{{ .Site.Author.name }}</a>
+                        © {{ .Site.Params.footer.from }}-{{ now.Format "2006" }} <a href="https://github.com/thluiz">Thiago Silva</a>
                     </div>
                 {{ end }}
                 {{ if .Site.Params.footer.themeInfo }}

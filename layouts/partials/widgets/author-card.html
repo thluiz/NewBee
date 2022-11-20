@@ -1,21 +1,52 @@
 {{ $langNow := .Lang }}
 {{ $isMultiLingual := and (ne .Site.Language.Weight 1) (and .Site.IsMultiLingual (not .Site.Params.Site.OnlyOneLang)) }}
 <div class="about-zuozhe">
-    <div class="zuozhe">
-        {{ with .Site.Author.image }}
-            <div class="datou">
-                <img class="lazyload" src="/images/thumbnail.gif" data-src="{{ . }}" alt="">
-            </div>
-        {{ end }}
+    <div class="zuozhe">        
+        <div class="datou">
+            <img class="lazyload" src="/images/thluiz.png" alt="">
+        </div>        
         <div class="name-jianjie">
-            <div class="name">{{ .Site.Author.name }}</div>
+            <div class="name">Thiago Luiz Silva</div>
             <div class="jianjie">
-                {{ .Site.Author.description }}
+                Moy Chi Yau Si
+            </div>
+            <div class="jianjie">
+                梅 知 友 士
             </div>
         </div>
     </div>
 
-    <div class="type">
+    <div class="zuozhe">
+        <div class="datou">
+            <img class="lazyload" src="/images/antunes.jpg" alt="">
+        </div>
+        <div class="name-jianjie">
+            <div class="name">Carlos Cianci Antunes</div>
+            <div class="jianjie">
+                Moy Shan Si
+            </div>
+            <div class="jianjie">
+                梅 山 士
+            </div>
+        </div>
+    </div>
+
+    <div class="zuozhe">
+        <div class="datou">
+            <img class="lazyload" src="/images/carmen.jpg" alt="">
+        </div>
+        <div class="name-jianjie">
+            <div class="name">Carmen Maris</div>
+            <div class="jianjie">
+                Moy Kat Ming
+            </div>
+            <div class="jianjie">
+                梅 吉 明 
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="type">
         <a href='{{ if $isMultiLingual }}
                     {{ $langNow | relURL}}/posts
                 {{ else }}
@@ -40,11 +71,11 @@
             <p>{{ i18n "sidebar_tags" (len .Site.Taxonomies.tags) }}</p>
             <p>{{ len .Site.Taxonomies.tags }}</p>
         </a>
-    </div>
+    </div> -->
 
-    <a href="{{ .Site.Author.link }}">
+    <!-- <a href="{{ .Site.Author.link }}">
         <div class="follow">Follow Me</div>
-    </a>
+    </a> 
     <div class="link">
         {{ range .Site.Menus.social }}
         <a href="{{ .URL }}" class="link-item is-hidden-desktop" title="{{ .Name }}">
@@ -52,4 +83,5 @@
         </a>
         {{ end }}
     </div>
+    -->
 </div>

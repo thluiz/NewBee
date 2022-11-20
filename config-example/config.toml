@@ -164,7 +164,7 @@ hasCJKLanguage = false
         weight = 5
         pre = "<i class='fa fa-tags'></i>"        
     [[menus.main]]
-        name = "About"
+        name = "Sobre"
         url = "/about"
         weight = 6
         pre = "<i class='fa fa-info-circle'></i>"
@@ -251,3 +251,6 @@ hasCJKLanguage = false
     #     [markup.goldmark.renderer]
     #         unsafe = true
   
+[outputFormats]
+  [outputFormats.html]
+    isPlainText = true
