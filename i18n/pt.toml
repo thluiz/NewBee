@@ -16,7 +16,7 @@
 	other = 'postagens'
 # String in Categories terms
 [CategoriesTerms_category]
-	other = 'Category'
+	other = 'Categoria'
 
 # String in Tags taxonomy
 [Tags_tags]
@@ -27,10 +27,10 @@
 
 # String in Series taxonomy
 [Series_series]
-	other = 'Series'
+	other = 'Série'
 # String in Series terms
 [SeriesTerms_series]
-	other = 'Series'
+	other = 'Séries'
 
 # String in About
 [About_about]
@@ -58,56 +58,56 @@
 
 # String in sponsor
 [sponsor_sponsor]
-	other = 'Sponsor'
+	other = 'Patrocinador'
 [sponsor_cancel]
-	other = 'cancel'
+	other = 'cancelar'
 
 # String in postInfo
 [postInfo_postedOn]
-	other = 'postedOn'
+	other = 'Publicado em'
 [postInfo_updatedOn]
-	other = 'updatedOn'
+	other = 'Atualizado em'
 [postInfo_includedIn]
-	other = 'includedIn'
+	other = 'Incluído'
 [postInfo_notIncluded]
-	other = 'notIncluded'
+	other = 'Não incluído'
 [postInfo_wordsCount]
-	other = 'wordsCount'
+	other = 'palavras'
 [postInfo_readingTime]
-	other = 'readingTime'
+	other = 'tempo de leitura'
 [postInfo_minute] # make 'one' and 'other' same If there is no singular and plural
 	one = 'min'
 	other = 'mins'
 [postInfo_viewers]
-	other = 'viewers'
+	other = 'visualizações'
 
 # String in search
 [search_search]
-	other = 'search'
+	other = 'busca'
 [search_enterAKeyWord]
-	other = 'Enter a KeyWord'
+	other = 'digite'
 [search_found]
-	other = 'Found'
+	other = 'Encontrado'
 # keep '[search_result]' and '[search_results]' same
 # If there is no singular and plural
 [search_result] # singular
-	other = 'result'
+	other = 'Encontrado'
 [search_results] # plural
-	other = 'results'
+	other = 'Encontrados'
 [search_theEnd]
-	other = 'The End'
+	other = 'fim'
 [search_nothing]
-	other = 'Nothing was found'
+	other = 'Nada encontrado'
 
 # String in 404 page
 [_404_sorry]
-	other = 'Sorry, the page seems to be lost...'
+	other = 'Desculpe, página não existe'
 [_404_backToHome]
-	other = 'Back to Home'
+	other = 'Voltar para o Ínicio'
 
 # String in imageLoadingFailed
 [imageLoadingFailed]
-	other = 'image loading failed'
+	other = 'imagem não carregada'
 
 
 
